@@ -1,0 +1,6 @@
+confluent_kafka==2.8.0
+flask>=2.2.5
+gunicorn==23.0.0
+requests>=2.31.0
+flask-login==0.6.2
+Werkzeug==2.3.0
