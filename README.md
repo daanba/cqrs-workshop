@@ -255,10 +255,6 @@ Your Topics page should like this now
 
 On the system/laptop/instance where the microservices are expected to run
 
-- Go to the folder where the repo was cloned:
-  ```
-  cd commercial-workshops/series-getting-started-with-cc/workshop-microservices/
-  ```
 - Create a virtual environment:
   ```
   python3 -m venv _venv
