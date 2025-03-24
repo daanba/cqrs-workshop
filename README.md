@@ -32,12 +32,12 @@ This is an example of a microservice ecosystem using the CQRS (Command and Query
 ## <a name="step-0a"></a>**Prerequisites**
 
 1. Confluent Cloud Account
-    * Sign-up for a Confluent Cloud account [here](https://www.confluent.io/confluent-cloud/tryfree/?utm_medium=commercial-workshop-microservices).
+    * Sign-up for a Confluent Cloud account [here](https://www.confluent.io/confluent-cloud/tryfree/?utm_campaign=tm.fm-emea_cd.Kafka-Accreditation-Program_id.701Uz00000WQnVoIAL).
       <!--    * You can also Sign-up through Cloud Marketplaces: [AWS Marketplace](https://docs.confluent.io/cloud/current/billing/ccloud-aws-payg.html) or [Azure Marketplace](https://docs.confluent.io/cloud/current/billing/ccloud-azure-payg.html) or [GCP Marketplace](https://docs.confluent.io/cloud/current/billing/ccloud-gcp-payg.html)
       -->
     * Once you have signed up and logged in, click on the menu icon at the upper right hand corner, click on “Billing & payment”. New signups receive $400 to spend during their first 30 days. No credit card required.
 
-    > **Note:** You will create resources during this workshop that will incur costs. When you sign up for a Confluent Cloud account, you will get free credits to use in Confluent Cloud. This will cover the cost of resources created during the workshop. More details on the specifics can be found [here](https://www.confluent.io/confluent-cloud/tryfree/?utm_medium=commercial-workshop-microservices).
+    > **Note:** You will create resources during this workshop that will incur costs. When you sign up for a Confluent Cloud account, you will get free credits to use in Confluent Cloud. This will cover the cost of resources created during the workshop. More details on the specifics can be found [here](https://www.confluent.io/confluent-cloud/tryfree/?utm_campaign=tm.fm-emea_cd.Kafka-Accreditation-Program_id.701Uz00000WQnVoIAL).
 
 From the system/ laptop/ instance where microservices are planned to run, setup the following
 
@@ -70,11 +70,11 @@ From the system/ laptop/ instance where microservices are planned to run, setup 
    > ```
 7. Clone this repo:
    ```
-   git clone git@github.com:confluentinc/commercial-workshops.git
+   git clone git@github.com:RakeshNKundar/cqrs-workshop.git
    ```
    or
    ```
-   git clone https://github.com/confluentinc/commercial-workshops.git
+   git clone https://github.com/RakeshNKundar/cqrs-workshop.git
    ```
 
 ***
