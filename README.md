@@ -37,8 +37,6 @@ This is an example of a microservice ecosystem using the CQRS (Command and Query
       -->
     * Once you have signed up and logged in, click on the menu icon at the upper right hand corner, click on “Billing & payment”. New signups receive $400 to spend during their first 30 days. No credit card required.
 
-    > **Note:** You will create resources during this workshop that will incur costs. When you sign up for a Confluent Cloud account, you will get free credits to use in Confluent Cloud. This will cover the cost of resources created during the workshop. More details on the specifics can be found [here](https://www.confluent.io/confluent-cloud/tryfree/?utm_campaign=tm.fm-emea_cd.Kafka-Accreditation-Program_id.701Uz00000WQnVoIAL).
-
 From the system/ laptop/ instance where microservices are planned to run, setup the following
 
 1. Ports `443` and `9092` need to be open to the public internet for outbound traffic. To check, try accessing the following from your web browser or using curl in the CLI.
