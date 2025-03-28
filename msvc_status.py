@@ -55,7 +55,7 @@ SYS_CONFIG = get_system_config(sys_config_file)
 
 # Set consumer object
 CONSUME_TOPICS = [
-    SYS_CONFIG["kafka-topics"]["pizza_status"],
+    SYS_CONFIG["kafka-topics"]["pizza-status"],
 ]
 _, _, CONSUMER, _ = set_producer_consumer(
     kafka_config_file,

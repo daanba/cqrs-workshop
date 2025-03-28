@@ -53,10 +53,10 @@ kafka_config_file, sys_config_file = validate_cli_args(SCRIPT)
 SYS_CONFIG = get_system_config(sys_config_file)
 
 # Set producer/consumer objects
-PRODUCE_TOPIC_STATUS = SYS_CONFIG["kafka-topics"]["pizza_status"]
-PRODUCE_TOPIC_ASSEMBLED = SYS_CONFIG["kafka-topics"]["pizza_assembled"]
+PRODUCE_TOPIC_STATUS = SYS_CONFIG["kafka-topics"]["pizza-status"]
+PRODUCE_TOPIC_ASSEMBLED = SYS_CONFIG["kafka-topics"]["pizza-assembled"]
 CONSUME_TOPICS = [
-    SYS_CONFIG["kafka-topics"]["pizza_ordered"],
+    SYS_CONFIG["kafka-topics"]["pizza-ordered"],
 ]
 _, PRODUCER, CONSUMER, _ = set_producer_consumer(
     kafka_config_file,

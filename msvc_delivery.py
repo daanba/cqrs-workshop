@@ -53,11 +53,11 @@ SYS_CONFIG = get_system_config(sys_config_file)
 
 # Set producer/consumer objects
 PENDING_ORDER = "PENDING"
-PRODUCE_TOPIC_DELIVERED = SYS_CONFIG["kafka-topics"]["pizza_delivered"]
-PRODUCE_TOPIC_PENDING = SYS_CONFIG["kafka-topics"]["pizza_pending"]
-PRODUCE_TOPIC_STATUS = SYS_CONFIG["kafka-topics"]["pizza_status"]
-TOPIC_PIZZA_ORDERED = SYS_CONFIG["kafka-topics"]["pizza_ordered"]
-TOPIC_PIZZA_BAKED = SYS_CONFIG["kafka-topics"]["pizza_baked"]
+PRODUCE_TOPIC_DELIVERED = SYS_CONFIG["kafka-topics"]["pizza-delivered"]
+PRODUCE_TOPIC_PENDING = SYS_CONFIG["kafka-topics"]["pizza-pending"]
+PRODUCE_TOPIC_STATUS = SYS_CONFIG["kafka-topics"]["pizza-status"]
+TOPIC_PIZZA_ORDERED = SYS_CONFIG["kafka-topics"]["pizza-ordered"]
+TOPIC_PIZZA_BAKED = SYS_CONFIG["kafka-topics"]["pizza-baked"]
 CONSUME_TOPICS = [TOPIC_PIZZA_ORDERED, TOPIC_PIZZA_BAKED]
 _, PRODUCER, CONSUMER, _ = set_producer_consumer(
     kafka_config_file,
