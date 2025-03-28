@@ -87,7 +87,7 @@ def pizza_assembled(
         key=order_id,
         value=json.dumps(
             {
-                "status": SYS_CONFIG["status-id"]["pizza_assembled"],
+                "status": SYS_CONFIG["status-id"]["pizza-assembled"],
                 "baking_time": baking_time,
                 "timestamp": timestamp_now(),
             }

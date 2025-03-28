@@ -82,7 +82,7 @@ def pizza_baked(order_id: str):
         key=order_id,
         value=json.dumps(
             {
-                "status": SYS_CONFIG["status-id"]["pizza_baked"],
+                "status": SYS_CONFIG["status-id"]["pizza-baked"],
                 "timestamp": timestamp_now(),
             }
         ).encode(),
